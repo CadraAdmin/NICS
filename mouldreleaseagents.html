@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<title>MAAX</title>
+
+		<!-- Mobile Specific Metas -->
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	    <link type="image/x-icon" href="images/m1-logo.png" rel="icon">
+
+	    <!-- Css File link -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142494086-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-142494086-2');
+    </script>
+</head>
+	<body>
+
+		<!-- Start preloader -->
+		<div id="preloader"></div>
+		<!-- End preloader -->
+
+		<!-- Search Screen start -->
+		<div class="sidebar-search-wrap">
+		    <div class="sidebar-table-container">
+			    <div class="sidebar-align-container">
+			        <div class="search-closer right-side">
+			        	<i class="fa fa-times" aria-hidden="true"></i>
+			        </div>
+			        <div class="search-container">
+			          <form method="get" id="search-form">
+			            <input type="text" id="s" class="search-input" name="s" placeholder="Search text">
+			          </form>
+			          <span>Search and Press Enter</span>
+			        </div>
+			    </div>
+		    </div>
+		</div>
+		<!-- Search Screen end -->
+
+		<!-- Scroll to top -->
+		<div class="top-scrolling">
+			<a href="#main" class="scrollTo"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+		</div>
+
+		<div id="main" class="main">
+			<header class="header">
+				<div class="container position-r">
+					<div class="row">
+						<div class="col-xl-3 col-lg-3 col-md-3 col-6 display-flex align-center">
+							<div class="brand-logo">
+								<a href="index.html">
+									<img src="images/maax1-logo-icon.png" class="white-logo" alt="brand logo">
+								<img src="images/maax1-logo-icon.png" class="black-logo" alt="brand logo">
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-9 col-lg-9 col-md-9 col-6 position-i display-flex align-center justify-right">
+							<div class="menu-toggle">
+						    	<span class="transition"></span>
+						    </div>
+							<div class="main-menu w-100">
+								<ul>
+									<li><a style="font-size: 22px; font-style: bold;" href="index.html">Home</a></li>
+									
+									<!--<li class="dropdown">
+										<span class="opener plus"></span>
+										<a href="javascript:void(0)">Pages</a>
+										<ul class="megamenu">
+											<li><a href="wishlist.html">Wishlist</a></li>
+											<li><a href="check-out.html">Check Out</a></li>
+											<li><a href="cart.html">Cart</a></li>
+											<li><a href="shop-list.html">Shop List</a></li>
+											<li><a href="shop-grid.html">Shop Grid</a></li>
+											<li><a href="product-detail.html">Product Detail</a></li>
+										</ul>
+									</li>-->
+									<li><a style="font-size: 22px; font-style: bold;" href="about.html">About Us</a></li>
+									
+									
+									<li><a style="font-size: 22px; font-style: bold;" href="contact.html">Contact Us</a>
+								</ul>
+							</div>
+							<!--<div class="icon-menu">
+								<ul>
+									<li class="login">
+										<a href="login.html"></a>
+									</li>
+									<li class="search">
+										<a href="#"></a>
+									</li>
+									<li class="cart">
+										<a href="javascript:void(0)"></a>
+										<span>2</span>
+										<div class="cart-dropdown header-link-dropdown">
+											<ul class="cart-list link-dropdown-list">
+												<li> 
+													<a href="javascript:void(0)" class="close-cart"><i class="fa fa-times-circle"></i></a>
+													<figure> 
+														<a href="product-detail.html" class="pull-left"> 
+														    <img alt="product" src="images/product-1.jpg">
+														</a>
+														<figcaption> 
+														    <span>
+														      	<a href="product-detail.html">Men's Full Sleeves Collar Shirt</a>
+														    </span>
+														    <p class="cart-price">$14.99</p>
+														    <div class="product-qty">
+														        <label>Qty:</label>
+														        <div class="custom-qty">
+														            <input type="text" name="qty" maxlength="8" value="1" title="Qty" class="input-text qty" disabled>
+														        </div>
+														    </div>
+														</figcaption>
+													</figure>
+												</li>
+												<li> 
+													<a href="javascript:void(0)" class="close-cart"><i class="fa fa-times-circle"></i></a>
+													<figure> 
+														<a href="product-detail.html" class="pull-left"> 
+															<img alt="product" src="images/product-2.jpg">
+														</a>
+														<figcaption> 
+															<span>
+																<a href="product-detail.html">Women's Cape Jacket</a>
+														    </span>
+														    <p class="cart-price">$14.99</p>
+														    <div class="product-qty">
+														      	<label>Qty:</label>
+														      	<div class="custom-qty">
+														            <input type="text" name="qty" maxlength="8" value="1" title="Qty" class="input-text qty" disabled>
+														        </div>
+														    </div>
+														</figcaption>
+													</figure>
+												</li>
+											</ul>
+											<p class="cart-sub-totle"> 
+												<span class="pull-left">Cart Subtotal</span> 
+												<span class="pull-right"><strong class="price-box">$29.98</strong></span> 
+											</p>
+											<div class="clearfix"></div>
+											<div class="mt-20"> 
+												<a href="cart.html" class="btn">Cart</a> 
+												<a href="check-out.html" class="btn btn-color right-side">Checkout</a> 
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="bredcum">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6">
+							<h1 class="page-title">Mould Release Agents</h1>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>Product List</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="shop-listing ptb-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-12">
+							<!--<div class="sidebar">
+								<div class="sidebar-default mb-30">
+									<div class="category-content">
+										<h2 class="cat-title text-uppercase">women</h2>
+										<ul class="category category-drop-down">
+											<li>
+												<span class="opener plus"></span>
+												<a href="javascript:void(0)">Earring</a>
+												<ul class="category-sub">
+													<li><a href="#">Armill</a></li>
+													<li><a href="#">Brooch</a></li>
+													<li><a href="#">Button</a></li>
+													<li><a href="#">Diadem</a></li>
+												</ul>
+											</li>
+											<li>
+												<span class="opener plus"></span>
+												<a href="javascript:void(0)">Necklaces‎</a>
+												<ul class="category-sub">
+													<li><a href="#">Tableware</a></li>
+													<li><a href="#">Trivets</a></li>
+													<li><a href="#">Bottle Openers</a></li>
+													<li><a href="#">Tools</a></li>
+												</ul>
+											</li>
+											<li>
+												<span class="opener plus"></span>
+												<a href="javascript:void(0)">Diamond</a>
+												<ul class="category-sub">
+													<li><a href="#">Chairs</a></li>
+													<li><a href="#">Stools</a></li>
+													<li><a href="#">Benches</a></li>
+													<li><a href="#">Tables</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="sidebar-default mb-30">
+									<div class="category-content">
+										<h2 class="cat-title text-uppercase">Filter By</h2>
+										<a class="btn small btn-filter" href="#">
+											<i class="fa fa-close"></i><span>Clear all</span>
+										</a>
+									</div>
+									<div class="category-content filter-by">
+										<h2 class="cat-title text-uppercase">Categories</h2>
+										<ul class="category">
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Tops" name="Tops">
+														<label for="Tops">Accessories (1)</label>
+													</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Dresses" name="Dresses">
+													<label for="Dresses">Desk storage (10)</label>
+												</div>
+											</li>
+										</ul>
+									</div>-
+									<div class="category-content filter-by">
+										<h2 class="cat-title text-uppercase">Size</h2>
+										<ul class="category">
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="s1" name="s">
+													<label for="s1">S</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="m" name="m">
+													<label for="m">M</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="l" name="l">
+													<label for="l">L</label>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="category-content filter-by">
+										<h2 class="cat-title text-uppercase">Color</h2>
+										<ul class="category">
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Beige" name="Beige">
+													<label for="Beige" class="beige">Beige (1)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="White" name="White">
+													<label for="White" class="white">White (2)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Black" name="Black">
+													<label for="Black" class="black">Black (2)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Orange" name="Orange">
+													<label for="Orange" class="orange">Orange (3)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Blue" name="Blue">
+													<label for="Blue" class="blue">Blue (2)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Green" name="Green">
+													<label for="Green" class="green">Green (1)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Yellow" name="Yellow">
+													<label for="Yellow" class="yellow">Yellow (3)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Pink" name="Pink">
+													<label for="Pink" class="pink">Pink (1)</label>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="category-content filter-by">
+										<h2 class="cat-title text-uppercase">Styles</h2>
+										<ul class="category">
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Casual" name="Casual">
+													<label for="Casual">Casual (9)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Dressy" name="Dressy">
+													<label for="Dressy">Dressy (1)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Girly" name="Girly">
+														<label for="Girly">Girly (3)</label>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="category-content filter-by">
+										<h2 class="cat-title text-uppercase">Compositions</h2>
+										<ul class="category">
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Cotton" name="Cotton">
+													<label for="Cotton">Cotton (8)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="Viscose" name="Viscose">
+													<label for="Viscose">Viscose (1)</label>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="category-content filter-by">
+										<h2 class="cat-title text-uppercase">Price</h2>
+										<ul class="category">
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_1" name="Cotton">
+													<label for="price_1">$68.00 - $72.00 (2)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_2" name="Cotton">
+													<label for="price_2">$86.00 - $89.00 (1)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_3" name="Cotton">
+													<label for="price_3">$99.00 - $103.00 (3)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_4" name="Cotton">
+													<label for="price_4">$104.00 - $108.00 (2)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_5" name="Cotton">
+													<label for="price_5">$109.00 - $113.00 (1)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_6" name="Cotton">
+													<label for="price_6">$126.00 - $135.00 (2)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_7" name="Cotton">
+													<label for="price_7">$209.00 - $217.00 (3)</label>
+												</div>
+											</li>
+											<li>
+												<div class="check-box">
+													<input type="checkbox" class="checkbox" id="price_8" name="Cotton">
+													<label for="price_8">$309.00 - $321.00 (1)</label>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="sidebar-default">
+									<div class="category-content">
+										<h2 class="cat-title latest-prod text-uppercase">Latest products</h2>
+										<div class="seller">
+											<div class="seller-box align-flax w-100 pb-10">
+												<div class="seller-img">
+													<a href="product-detail.html" class="display-b">
+														<img src="images/product-9.jpg" alt="shoes" class="transition">
+													</a>
+												</div>
+												<div class="seller-contain pl-15">
+														<a href="product-detail.html" class="product-name text-uppercase">Endeavor Daytrip Backpack</a>
+														<span class="product-price">$478.00</span>
+													</div>
+											</div>
+											<div class="seller-box align-flax w-100 pb-10">
+												<div class="seller-img">
+													<a href="product-detail.html" class="display-b">
+														<img src="images/product-9.jpg" alt="shoes" class="transition">
+													</a>
+												</div>
+												<div class="seller-contain pl-15">
+													<a href="product-detail.html" class="product-name text-uppercase">Endeavor Daytrip Backpack</a>
+													<span class="product-price">$478.00</span>
+												</div>
+											</div>
+											<div class="seller-box align-flax w-100 pb-10">
+												<div class="seller-img">
+													<a href="product-detail.html" class="display-b">
+														<img src="images/product-9.jpg" alt="shoes" class="transition">
+													</a>
+												</div>
+												<div class="seller-contain pl-15">
+													<a href="product-detail.html" class="product-name text-uppercase">Endeavor Daytrip Backpack</a>
+													<span class="product-price">$478.00</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>-->
+						</div>	
+						<div class="col-xl-8 col-lg-8 col-12">
+							<!--<div class="shorting mb-30">
+							    <div class="row align-flax">
+							       <div class="col-xl-5 col-lg-5 col-md-6 mb-r-15">
+							            <div class="view">
+							                <div class="list-types grid"> 
+							                 	<a href="shop-grid.html">
+							                   		<div class="grid-icon list-types-icon">
+							                    		<i class="fa fa-th-large transition" aria-hidden="true"></i>
+							                   		</div>
+							                   	</a> 
+							                </div>
+							                <div class="list-types list active"> 
+							                 	<a href="shop-list.html">
+							                   		<div class="list-icon list-types-icon">
+							                   			<i class="fa fa-bars transition" aria-hidden="true"></i>
+							                   		</div>
+							                   	</a> 
+							                </div>
+							            </div>
+							            <div class="short-by"> <span>Product Compare (0)</span>
+							            </div>
+							        </div>
+							        <div class="col-xl-7 col-lg-7 col-md-6 text-right text-left-md">
+							            <div class="show-item"> 
+							               	<span class="ml-0">Sort By:</span>
+							                <div class="select-item">
+							                   	<select class="m-w-130">
+							                      	<option value="" selected="selected">Default sorting</option>
+							                      	<option value="">Sort by popularity</option>
+							                      	<option value="">Sort by average rating</option>
+							                    </select>
+							                </div>
+							            </div>
+							            <div class="show-item float-right-md"> 
+							                <span>Show</span>
+							                <div class="select-item">
+							                    <select>
+							                      	<option value="" selected="selected">15</option>
+							                      	<option value="">12</option>
+							                      	<option value="">6</option>
+							                    </select>
+							                </div>
+							            </div>
+							        </div>
+							    </div>
+							</div>-->
+							<div class="shop-list-page">
+								<div class="row">
+									
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxsil30380x280.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												
+													<h4><b>Maax Sil 303</b></h4>
+													<h5>Special Grade Non Silicone Spray</h5>
+												<!--<span class="product-price">$55.88</span>-->
+												<!--<p class="product-detail-desc"></p>-->
+												<div class="product-des">
+													<!--<p>Our organization has achieved widespread recognition in offering Multifunctional Fluid Spray to our clients.<br>
+														 It is formulated using quality components, and is used to loosen dust and help dismantling of corroded and seized threaded connections. <br>
+														 The packaging is made hygienic, and it is environment friendly. <br>
+														 Our work forces also process this product in customized version.<br>
+														 Demand of it is high and we try to meet them accordingly.</p>
+														 <br>-->
+													<h6>Benefits:</h6>
+														   <ul>
+															<li><i class="fa fa-check-circle-o"></i> Provides heat stable lubricant film</li>
+                                                             <li><i class="fa fa-check-circle-o"></i>Excellent ant sticking property
+							                                <li><i class="fa fa-check-circle-o"></i>Does not require cleaning prior to painting or plating</li>
+														  </ul>  
+								
+												</div>
+												<br>
+												   <ul>
+													<h6>Applications:</h6>
+													<li><i class="fa fa-check"></i> Used as releasing application in plastic, shell</li>
+													<li><i class="fa fa-check"></i>Used in rubber molding, parting agent for aluminum</li>
+													<li><i class="fa fa-check"></i> Used in zinc die casting</li>
+												   </ul>
+												<!--<div class="product-action">
+													<ul>
+														<li>
+															<a href="cart.html" class="button">
+																<img src="images/shop-bag.png" alt="bag">
+																<span>add to cart</span>
+															</a>
+														</li>
+														<li>
+															<a href="wishlist.html" class="btn-border"><i class="fa fa-heart" aria-hidden="true"></i></a>
+														</li>
+													</ul>
+												</div>-->
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxsil314.png" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Maax Sil 314</b></h4>
+												<h5>Special Grade Silicone Mould Release</h5>
+												<div class="product-des">
+													<!--<p>Our organization is very well known as manufacturer, supplier and service provider of Maintenance Spray to our clients.<br>
+								
+														 MLPL range of maintenance products has been carefully selected to achieve maximum service life.<br>
+								
+														 Our main priority has been to provide our customer with solution and all over products help to contribute to this goal. 
+								
+													</p><br>-->
+								
+													<h6>Benefits:</h6>
+								
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>Provides heat stable, non-carbonizing film</li>
+														<li><i class="fa fa-check-circle-o"></i>Does not discolour moulded parts</li>
+														<li><i class="fa fa-check-circle-o"></i>Single application provides numerous moulding cycles</li>
+														<li><i class="fa fa-check-circle-o"></i>Non toxic and non staining</li>
+												
+													</ul><i></i>
+								
+								
+												</div>
+												<br>
+												<ul>
+													<h6>Applications:</h6>
+													<li><i class="fa fa-check"></i>Used for releasing of Plastics, Rubber, epoxies, polyester</li>
+				    <li><i class="fa fa-check"></i>Used in polyurethane, silicone glass laminates, etc</li>
+												</ul>
+												<!--<span class="product-price">$55.88</span>
+												<p class="product-detail-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco aboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in oluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+												<div class="product-action">
+													<ul>
+														<li>
+															<a href="cart.html" class="button">
+																<img src="images/shop-bag.png" alt="bag">
+																<span>add to cart</span>
+															</a>
+														</li>
+														<li>
+															<a href="wishlist.html" class="btn-border"><i class="fa fa-heart" aria-hidden="true"></i></a>
+														</li>
+													</ul>
+												</div>-->
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxsil414.png" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Maax Sil 414</b></h4>
+												<h5> Special Grade Silicone Free Mould Release</h5>
+												<div class="product-des">
+													<!--<p>Our organization is very well known as manufacturer, supplier and service provider of Maintenance Spray to our clients.<br>
+								
+														MLPL range of maintenance products has been carefully selected to achieve maximum service life.<br>
+								
+														Our main priority has been to provide our customer with solution and all over products help to contribute to this goal. 
+								
+												   </p><br>-->
+													<h6>Benefits:</h6>
+														   <ul>
+															<li><i class="fa fa-check-circle-o"></i>Provides heat stable film</li>
+                                                            <li><i class="fa fa-check-circle-o"></i>Excellent Anti Sticking Property</li>
+							                                 <li><i class="fa fa-check-circle-o"></i>Does not require cleaning prior to painting or plating</li>
+							                                  <li><i class="fa fa-check-circle-o"></i>Single application provides numerous moulding cycles</li>
+															  
+														  </ul>  
+								
+												</div><br>
+												<ul">
+													<h6>Applications:</h6>
+													<li><i class="fa fa-check"></i>As a Mould Release spray in Plastic Injection Moulding</li>
+													<li><i class="fa fa-check"></i>Shell Moulding, Die Casting, and Rubber Moulding</li>
+													<li><i class="fa fa-check"></i>Used in Parting agent for aluminium, zinc die casting</li>
+													
+												</ul>
+												<!--<span class="product-price">$55.88</span>
+												<p class="product-detail-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco aboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in oluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+												<div class="product-action">
+													<ul>
+														<li>
+															<a href="cart.html" class="button">
+																<img src="images/shop-bag.png" alt="bag">
+																<span>add to cart</span>
+															</a>
+														</li>
+														<li>
+															<a href="wishlist.html" class="btn-border"><i class="fa fa-heart" aria-hidden="true"></i></a>
+														</li>
+													</ul>
+												</div>-->
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxsil40280x280.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Maax Sil 402</b></h4>
+												<h5>Heavy Duty Silicone Mould Release</h5>
+												<div class="product-des">
+													<!--<p>Our organization is very well known as manufacturer, supplier and service provider of Maintenance Spray to our clients.<br>
+								
+														MLPL range of maintenance products has been carefully selected to achieve maximum service life.<br>
+								
+														Our main priority has been to provide our customer with solution and all over products help to contribute to this goal. </p>
+														<br>-->
+													<h6>Benefits:</h6>
+														   <ul>
+															<li><i class="fa fa-check-circle-o"></i> Provides heat stable lubricant film</li>
+                                                            <li><i class="fa fa-check-circle-o"></i>Excellent ant sticking property
+							                                <li><i class="fa fa-check-circle-o"></i> Used in zinc die casting</li>
+														  </ul>  
+								
+												</div><br>
+												<ul>
+													<h6>Applications:</h6>
+													<li><i class="fa fa-check"></i>Used as releasing application in plastic, shell</li>
+													<li><i class="fa fa-check"></i>Used in rubber molding, parting agent for aluminum</li>
+													<li><i class="fa fa-check"></i> Used in zinc die casting</li>
+												  </ul>
+												<!--<span class="product-price">$55.88</span>
+												<p class="product-detail-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco aboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in oluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+												<div class="product-action">
+													<ul>
+														<li>
+															<a href="cart.html" class="button">
+																<img src="images/shop-bag.png" alt="bag">
+																<span>add to cart</span>
+															</a>
+														</li>
+														<li>
+															<a href="wishlist.html" class="btn-border"><i class="fa fa-heart" aria-hidden="true"></i></a>
+														</li>
+													</ul>
+												</div>-->
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/multirelease10.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b> Multi Release 10</b></h4>
+												<h5> Special Grade Mould Release Agent</h5>
+												<div class="product-des">
+													<h6>Benefits:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i> Resist to Heat</li>
+														<li><i class="fa fa-check-circle-o"></i>Easy Release
+														<li><i class="fa fa-check-circle-o"></i> Excellent Penetration & Lubricant</li>
+														<li><i class=" fa fa-check-circle-o"></i> Water Repellent</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>As a Mould Release spray in Plastic Injection Moulding</li>
+				                            <li><i class="fa fa-check"></i>Used in Die casting ,Shell Moulding and Rubber Moulding Cables, Belts, Springs, etc.,.</li>
+				                            <li><i class="fa fa-check"></i>Used An Anti Spatter Spray for all type of welding process.</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/multirelease100.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Multi Release 100</b></h4>
+												<h5>Special Purpose Rubber Release Agent</h5>
+												<div class="product-des">
+													<h6>Benefits:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>Water base and non flammable</li>
+														<li><i class="fa fa-check-circle-o"></i>Higher thermal stability</li>
+														<li><i class="fa fa-check-circle-o"></i>Reduced mould build-up and reject rates</li>
+														<li><i class="fa fa-check-circle-o"></i>Easy release</li>
+														<li><i class="fa fa-check-circle-o"></i>Increased efficiency</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i> Specially designed to use as a rubber release agent for EPDM, NBR & hoses such as automobile radiator hoses and also can be used uncured rubber, hard rubber,'O' ring,gaskets and seals</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/multirelease1000.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Multi Release 1000</b></h4>
+												<h5>Rubber Releasing Cum Polishing Agent</h5>
+												<div class="product-des">
+													<h6>Benefits:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i> Water Soluble and non flammable</li>
+                                                         <li><i class="fa fa-check-circle-o"></i>Good surface abrasion resistance property
+							                            <li><i class="fa fa-check-circle-o"></i>Releases all rubber components</li>
+							                            <li><i class="fa fa-check-circle-o"></i> Reduced mould build-up and reject rates</li>
+							                             <li><i class="fa fa-check-circle-o"></i>Easy release</li>
+							                            <li><i class="fa fa-check-circle-o"></i> Increased efficiency</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Used as a Rubber and plastic mould release agent,polishing agent for variety of rubbers used in automobile and furniture industry.</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/rr1000.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b> RR 1000</b></h4>
+												<h5> Special Purpose Rubber Release Agent</h5>
+												<div class="product-des">
+													<h6>Benefits:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>Water base and non flammable</li>
+														<li><i class="fa fa-check-circle-o"></i>Higher thermal stability</li>
+														<li><i class="fa fa-check-circle-o"></i>Releases all rubber components</li>
+														<li><i class="fa fa-check-circle-o"></i>Easy release and Increased efficiency</li>
+														<li><i class="fa fa-check-circle-o"></i>Reduced mould build-up and reject rates</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i> Specially designed to use as a rubber release agent for EPDM, NBR & hoses such as automobile radiator hoses and also can be used uncured rubber, hard rubber,  'O' ring, gaskets and seals.</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/lc414.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>LC414</b></h4>
+												<h5> Non Ferrous Laddle Coating Paste</h5>
+												<div class="product-des">
+													<h6>Benefits:</h6>
+													<ul>
+														<ul>
+															<li><i class="fa fa-check-circle-o"></i>White lubricant and release agent with excellent heat resistance</li>
+                                                            <li><i class="fa fa-check-circle-o"></i>High Electrical & Chemical resistant</li>
+							                                <li><i class="fa fa-check-circle-o"></i>Total non wetting with molten non - ferrous metals & glass</li>
+							                                <li><i class="fa fa-check-circle-o"></i>Easily applied like a grease</li>
+							                                <li><i class="fa fa-check-circle-o"></i>High temperature resistance up to 900 °C</li>
+														</ul>  
+							  
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Specially formulated for Non ferrous-molten metal</li>
+                                            <li><i class="fa fa-check"></i>Used in glass release application and ladle coating application</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/mouldguard.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Mould Coat</b></h4>
+												<h5>Mould Release Agent</h5>
+												<div class="product-des">
+													<h6>Benefits:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i> Replaces moisture, Good wet ability</li>
+                                                         <li><i class="fa fa-check-circle-o"></i>Excellent rust protection
+							                             <li><i class="fa fa-check-circle-o"></i>Superior penetrating property</li>
+							                             <li><i class="fa fa-check-circle-o"></i>Optimum area coverage</li>
+							                             <li><i class="fa fa-check-circle-o"></i> Does not harm ferrous and non ferrous metals</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i> Release agent for variety of  metals includes zinc, aluminum, lead, rubber and plastics</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/whitelubespray.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>White Lube Spray</b></h4>
+												<h5>Multi Functional Spray</h5>
+												<div class="product-des">
+													<h6>Benefits:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>High thermal resistance</li>
+                                                     <li><i class="fa fa-check-circle-o"></i>High temperature lubrication
+							                          <li><i class="fa fa-check-circle-o"></i>Excellent thermal conductivity</li>
+							                          <li><i class="fa fa-check-circle-o"></i>Very high oxidation resistance</li>
+							                           <li><i class="fa fa-check-circle-o"></i>Excellent release property and Chemically inert</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<li><i class="fa fa-check"></i>Lubricant for chain,conveyor,open gear,sliding surfaces</li>
+				                             <li><i class="fa fa-check"></i>Release agent for molding aluminum, molten metals,molten glass and diamond tool and iron industries.</li>
+				                             <li><i class="fa fa-check"></i> New generation anti spatter spray for variety of welding</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<!--<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxg689.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Maax G-689</b></h4>
+												<h5> Synthetic High Temperature Grease</h5>
+												<div class="product-des">
+													<h6>Properties:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>Resistance to high temperature and humidity</li>
+														<li><i class="fa fa-check-circle-o"></i>Higher shear stability
+														<li><i class="fa fa-check-circle-o"></i>High load capability</li>
+														<li><i class="fa fa-check-circle-o"></i> Excellent water resistance</li>
+														<li><i class="fa fa-check-circle-o"></i>Provide adequate protection against rust</li>
+														<li><i class="fa fa-check-circle-o"></i> Reduces the formation of carbon residue</li>
+														
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Dry furnance, bearing, kilns, motors, ID fans,  blower fans, Exhaust fans, furnance door hinges, steel continous castings, Electrical motors,heaters, drying,compacting  machines</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxg690.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Maax G-690</b></h4>
+												<h5>Synthetic PTFE Grease</h5>
+												<div class="product-des">
+													<h6>Properties:</h6>
+													<ul>
+														<li><i class=" fa fa-check-circle-o"></i> Resistance to high temperature and humidity</li>
+                              <li><i class="fa fa-check-circle-o"></i>Higher shear stability
+							  <li><i class="fa fa-check-circle-o"></i> High load capability</li>
+							  <li><i class="fa fa-check-circle-o"></i>Excellent water resistance</li>
+							  <li><i class="fa fa-check-circle-o"></i>Provide adequate protection against rust</li>
+							  <li><i class="fa fa-check-circle-o"></i>Reduces the formation of carbon residue</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Dry furnance, bearing, kilns, motors, ID fans, blower fans, Exhaust fans,furnance door hinges, steel continous castings,Electrical motors,heaters, drying,compacting machines</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxg695.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Maax G-695</b></h4>
+												<h5>Slow Speed High Temperature Grease </h5>
+												<div class="product-des">
+													<h6>Properties:</h6>
+													<ul>
+														<li><i class=" fa fa-check-circle-o"></i> Resistance to high temperature and humidity</li>
+                              <li><i class="fa fa-check-circle-o"></i>Higher shear stability
+							  <li><i class="fa fa-check-circle-o"></i> High load capability</li>
+							  <li><i class="fa fa-check-circle-o"></i>Excellent water resistance</li>
+							  <li><i class="fa fa-check-circle-o"></i>Provide adequate protection against rust</li>
+							  <li><i class="fa fa-check-circle-o"></i>Reduces the formation of carbon residue</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Dry furnance, bearing, kilns, motors, ID fans, blower fans, Exhaust fans,furnance door hinges, steel continous castings,Electrical motors,heaters, drying,compacting machines</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/maaxg696.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Maax G-696</b></h4>
+												<h5>High Temperature Grease</h5>
+												<div class="product-des">
+													<h6>Properties:</h6>
+													<ul>
+														<li><i class=" fa fa-check-circle-o"></i> Resistance to high temperature and humidity</li>
+                              <li><i class="fa fa-check-circle-o"></i>Higher shear stability
+							  <li><i class="fa fa-check-circle-o"></i> High load capability</li>
+							  <li><i class="fa fa-check-circle-o"></i>Excellent water resistance</li>
+							  <li><i class="fa fa-check-circle-o"></i>Provide adequate protection against rust</li>
+							  <li><i class="fa fa-check-circle-o"></i>Reduces the formation of carbon residue</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Dry furnance, bearing, kilns, motors, ID fans, blower fans, Exhaust fans,furnance door hinges, steel continous castings,Electrical motors,heaters, drying,compacting machines</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/magicsil700.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Magic Sil 700</b></h4>
+												<h5> Low Temp Bearing Grease & Plastic Lubricant</h5>
+												<div class="product-des">
+													<h6>Properties:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>Low volatility & very low pressure base</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent cold & hot water resistance & chemical resistance</li> 
+														<li><i class="fa fa-check-circle-o"></i>Constant consistency over wide range of temperature (-  40°C to +250°C)</li>
+														<li><i class="fa fa-check-circle-o"></i>Chemically inert & offers good resistance to solvents</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent sealing property makes it an ideal choice for high vacuum and high pressure systemsODS FREE (OZONE DEPLETING SUBSTANCES FREE)</li>
+														
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i> Lubrication of 'O' rings, rubber seals, gaskets, shut off valves, tapes etc.,</li>
+											<li><i class="fa fa-check"></i>As a sealant and lubricant for glass-joints, stop-cocks, control valves, ceramic plug cocks, food and chemicals.</li>
+											
+										   </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/magicsil703.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Magic Sil 703</b></h4>
+												<h5></h5>
+												<div class="product-des">
+													<h6>Properties:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>Low volatility & very low pressure base</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent cold & hot water resistance & chemical resistance</li> 
+														<li><i class="fa fa-check-circle-o"></i>Constant consistency over wide range of temperature (-  40°C to +250°C)</li>
+														<li><i class="fa fa-check-circle-o"></i>Chemically inert & offers good resistance to solvents</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent sealing property makes it an ideal choice for high vacuum and high pressure systemsODS FREE (OZONE DEPLETING SUBSTANCES FREE)</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Bearing operating under light to moderate loads, cold             room conveyors, timer motor bearing,optical instrument, wiper motor, clutch drives, electrical switches, plastic- metal.</li>
+				                            
+										 </ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-12 col-md-12">
+										<div class="product-box">
+											<div class="product-img">
+												<img src="images/magicsil704.gif" alt="Product name">
+											</div>
+											<div class="product-des">
+												<h4><b>Magic Sil 704</b></h4>
+												<h5> Silicone Grease for Bearings & Plastics</h5>
+												<div class="product-des">
+													<h6>Properties:</h6>
+													<ul>
+														<li><i class="fa fa-check-circle-o"></i>Low volatility & very low pressure base</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent cold & hot water resistance & chemical resistance</li> 
+														<li><i class="fa fa-check-circle-o"></i>Constant consistency over wide range of temperature (-  40°C to +250°C)</li>
+														<li><i class="fa fa-check-circle-o"></i>Chemically inert & offers good resistance to solvents</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent sealing property makes it an ideal choice for high vacuum and high pressure systemsODS FREE (OZONE DEPLETING SUBSTANCES FREE)</li>
+												   </ul>  
+						 
+										 </div><br>
+										 <ul>
+											<h6>Applications:</h6>
+											<li><i class="fa fa-check"></i>Bearing operating under light to moderate loads, cold             room conveyors, timer motor bearing,optical instrument, wiper motor, clutch drives, electrical switches, plastic- metal.</li>
+										   </ul>
+											</div>
+										</div>
+									</div>
+										<div class="col-xl-12 col-lg-12 col-md-12">
+											<div class="product-box">
+												<div class="product-img">
+													<img src="images/magicsil707.gif" alt="Product name">
+												</div>
+												<div class="product-des">
+													<h4><b>Magic Sil 707</b></h4>
+													<h5>High Grade Silicone Grease</h5>
+													<div class="product-des">
+														<h6>Properties:</h6>
+														<ul>
+															<li><i class="fa fa-check-circle-o"></i>Low volatility & very low pressure base</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent cold & hot water resistance & chemical resistance</li> 
+														<li><i class="fa fa-check-circle-o"></i>Constant consistency over wide range of temperature (-  40°C to +250°C)</li>
+														<li><i class="fa fa-check-circle-o"></i>Chemically inert & offers good resistance to solvents</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent sealing property makes it an ideal choice for high vacuum and high pressure systemsODS FREE (OZONE DEPLETING SUBSTANCES FREE)</li>
+													   </ul>  
+							 
+											 </div><br>
+											 <ul>
+												<h6>Applications:</h6>
+												<li><i class="fa fa-check"></i> As a sealant and lubricant for glass-joints, stop-cocks, control valves, ceramic plug cocks and chemical processing equipment</li>
+												<li><i class="fa fa-check"></i> Lubrication of synthetic 'O' rings, seals and gaskets,for shut off valves & tapes in laboratory and high vacuum plants. </li>
+											   </ul>
+												</div>
+											</div>
+										</div>
+											<div class="col-xl-12 col-lg-12 col-md-12">
+												<div class="product-box">
+													<div class="product-img">
+														<img src="images/magicsil711.gif" alt="Product name">
+													</div>
+													<div class="product-des">
+														<h4><b>Magic Sil 711</b></h4>
+														<h5>High Vacuum Silicone Grease</h5>
+														<div class="product-des">
+															<h6>Properties:</h6>
+															<ul>
+																<li><i class="fa fa-check-circle-o"></i>Low volatility & very low pressure base</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent cold & hot water resistance & chemical resistance</li> 
+														<li><i class="fa fa-check-circle-o"></i>Constant consistency over wide range of temperature (-  40°C to +250°C)</li>
+														<li><i class="fa fa-check-circle-o"></i>Chemically inert & offers good resistance to solvents</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent sealing property makes it an ideal choice for high vacuum and high pressure systemsODS FREE (OZONE DEPLETING SUBSTANCES FREE)</li>
+														   </ul>  
+								 
+												 </div><br>
+												 <ul>
+													<h6>Applications:</h6>
+													<li><i class="fa fa-check"></i> As a sealant and lubricant for glass-joints, stop-cocks, control valves, ceramic plug cocks and chemical processing equipment</li>
+												<li><i class="fa fa-check"></i> Lubrication of synthetic 'O' rings, seals and gaskets,for shut off valves & tapes in laboratory and high vacuum plants. </li>
+												   </ul>
+													</div>
+												</div>
+											</div>
+												<div class="col-xl-12 col-lg-12 col-md-12">
+													<div class="product-box">
+														<div class="product-img">
+															<img src="images/magicsil712.gif" alt="Product name">
+														</div>
+														<div class="product-des">
+															<h4><b>Magic Sil 712</b></h4>
+															<h5>High Grade Silicone Grease</h5>
+															<div class="product-des">
+																<h6>Properties:</h6>
+																<ul>
+																	<li><i class="fa fa-check-circle-o"></i>Low volatility & very low pressure base</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent cold & hot water resistance & chemical resistance</li> 
+														<li><i class="fa fa-check-circle-o"></i>Constant consistency over wide range of temperature (-  40°C to +250°C)</li>
+														<li><i class="fa fa-check-circle-o"></i>Chemically inert & offers good resistance to solvents</li>
+														<li><i class="fa fa-check-circle-o"></i>Excellent sealing property makes it an ideal choice for high vacuum and high pressure systemsODS FREE (OZONE DEPLETING SUBSTANCES FREE)</li>
+															   </ul>  
+									 
+													 </div><br>
+													 <ul>
+														<h6>Applications:</h6>
+														<li><i class="fa fa-check"></i> As a sealant and lubricant for glass-joints, stop-cocks, control valves, ceramic plug cocks and chemical processing equipment</li>
+												<li><i class="fa fa-check"></i> Lubrication of synthetic 'O' rings, seals and gaskets,for shut off valves & tapes in laboratory and high vacuum plants. </li>
+													   </ul>
+														</div>
+													</div>
+												</div>
+													<div class="col-xl-12 col-lg-12 col-md-12">
+														<div class="product-box">
+															<div class="product-img">
+																<img src="images/hilube0.gif" alt="Product name">
+															</div>
+															<div class="product-des">
+																<h4><b>Hi-Lube 0</b></h4>
+																<h5>High Performance Fluid Greases</h5>
+																<div class="product-des">
+																	<h6>Properties:</h6>
+																	<ul>
+																		<li><i class=" fa fa-check-circle-o"></i> Thermal stability</li>
+																		<li><i class=" fa fa-check-circle-o"></i>High oxidation stability</li>
+																		<li><i class=" fa fa-check-circle-o"></i>Excellent pumpability</li>
+																		<li><i class=" fa fa-check-circle-o"></i>Low coefficent of friction</li>
+																		<li><i class=" fa fa-check-circle-o"></i>High shear stability</li>
+
+																   </ul>  
+										 
+														 </div><br>
+														 <ul>
+															<h6>Applications:</h6>
+															<li><i class="fa fa-check"></i>Multi-functional grease for lubrication of All types of enclosed  gear boxes and for centralized lubrication</li>
+														   </ul>
+															</div>
+														</div>
+													</div>
+														<div class="col-xl-12 col-lg-12 col-md-12">
+															<div class="product-box">
+																<div class="product-img">
+																	<img src="images/gearguard800.gif" alt="Product name">
+																</div>
+																<div class="product-des">
+																	<h4><b>Gear Guard 800</b></h4>
+																	<h5>New Generation Open Gear Grease</h5>
+																	<div class="product-des">
+																		<h6>Properties:</h6>
+																		<ul>
+																			<li><i class=" fa fa-check-circle-o"></i> Good affinity to metal which prevents fretting, scoring and clawing</li>
+																			<li><i class=" fa fa-check-circle-o"></i>High active EP additive, prevents metal to metal contact withstands shock load and Extreme pressure</li>
+																			<li><i class=" fa fa-check-circle-o"></i>Outstanding water resistance</li>
+																			
+	
+																	   </ul>  
+											 
+															 </div><br>
+															 <ul>
+																<h6>Applications:</h6>
+																<li><i class="fa fa-check"></i> Specially formulated for lubrication of all types of open gears. subjected to extreme load, high temperature and water saturated condition</li>
+															   </ul>
+																</div>
+															</div>
+	
+															
+														</div>
+														<div class="col-xl-12 col-lg-12 col-md-12">
+															<div class="product-box">
+																<div class="product-img">
+																	<img src="images/ropeguard900.gif" alt="Product name">
+																</div>
+																<div class="product-des">
+																	<h4><b>Rope Guard 900</b></h4>
+																	<h5> New Generation Wire Rope Grease</h5>
+																	<div class="product-des">
+																		<h6>Properties:</h6>
+																		<ul>
+																			<li><i class=" fa fa-check-circle-o"></i>  Specially formulated to provide extended service life, overwide range of temperature</li>
+																			<li><i class=" fa fa-check-circle-o"></i>Strong adhesion & film forming character</li>
+																			<li><i class=" fa fa-check-circle-o"></i> Exceptional wetting & penetrating ability in to the core or hemp</li>
+																			<li><i class=" fa fa-check-circle-o"></i> It does not harden at low temperature & thin out at high temperature</li>
+																			<li><i class=" fa fa-check-circle-o"></i> Excellent rust & corrosion protection with in the core & hemp</li>
+	                                                                        <li><i class=" fa fa-check-circle-o"></i> Excellent resistance to water washout, water spray off</li>
+																	   </ul>  
+											 
+															 </div><br>
+															 <ul>
+																<h6>Applications:</h6>
+																<li><i class="fa fa-check"></i>Used in all types of wire ropes, sprocket, pulley, chain drive, hoist and forklift</li>
+															   </ul>
+																</div>
+															</div>
+	
+															
+														</div>
+
+														
+									                </div>-->
+								</div>
+							</div>
+							<!--<div class="shorting pagination-1 mt-20">
+						        <div class="row">
+						            <div class="col-lg-6 col-md-6">
+						                <div class="pagination-bar">
+					                      	<ul>
+					                        	<li class="active"><a href="#">1</a></li>
+					                        	<li><a href="#">2</a></li>
+					                        	<li><a href="#">3</a></li>
+					                        	<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+					                      	</ul>
+					                    	</div>
+						              	</div>
+						            <div class="col-lg-6 col-md-6">
+						                <div class="show-item right-side float-none-md"> 
+						                	<span class="float-none-md d-block">Showing 1 to 15 of 15 (1 Pages)</span>
+						                </div>
+						            </div>
+						        </div>
+						    </div>-->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--<section class="newsletter">
+				<div class="newsletter-inner text-center ptb-100">
+					<div class="container">
+						<h2 class="newsletter-title">Sign up for Newsletter</h2>
+						<p class="newsletter-sub">Wants to get latest updates! sign up for Free</p>
+						<form>
+						  <div class="form-group">
+						    <input type="email" class="form-control" placeholder="Your email address" required>
+						  </div>
+						  <button type="submit" class="form-btn text-uppercase">
+							<span class="sub-r">Subscribe</span> 
+							<i class="fa fa-send icon-r"></i>
+						</button>
+						</form>
+					</div>
+				</div>
+			</section>-->
+
+			<footer class="footer wow fadeInUp pt-1">
+				<div class="container">
+					<!--<div class="footer-inner">
+						<div class="footer-box">
+							<div class="footer-logo">
+								<a href="index.html"><img src="images/maax1-logo-icon.png" alt="logo"></a></br>
+							</div>
+							<p class="footer-desc">We co-operate with our customers to provide hi-tech service, on-time
+								delivery and best quality products at international standards.</p>
+						</div>
+						<div class="footer-box footer-static">
+								<span class="opener plus"></span>
+								<h2 class="footer-title text-uppercase">Our company</h2>
+								<ul class="footer-block-contant">
+									<li><a href="#">My Account</a></li>
+									<li><a href="#">Order History</a></li>
+									<li><a href="wishlist.html">Wish List</a></li>
+									<li><a href="#">Newsletter</a></li>
+									<li><a href="#">Site Map</a></li>
+									<li><a href="#">Gift Certificates</a></li>
+								</ul>
+							</div>
+							<div class="footer-box footer-static">
+								<span class="opener plus"></span>
+								<h2 class="footer-title text-uppercase">Information</h2>
+								<ul class="footer-block-contant">
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="#">Delivery Information</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms & Conditions</a></li>
+									<li><a href="contact.html">Contact Us</a></li>
+									<li><a href="#">Brands</a></li>
+								</ul>
+							</div>
+	
+						<div class="footer-box" style="width: 45%;">
+							<div class="add-map">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.411181979707!2d77.02458391524188!3d11.00774455789027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8577705542749%3A0x45ae87a895ff2fbd!2sD%20Mart!5e0!3m2!1sen!2sin!4v1645353051124!5m2!1sen!2sin"
+									style="border:0; height: 100%;  width: 100%;" allowfullscreen="" aria-hidden="false"
+									tabindex="0" loading="lazy"></iframe>
+	
+							</div>
+						</div>
+						<div class="footer-box footer-contact footer-static m-0">
+							<span class="opener plus"></span>
+							<h2 class="footer-title text-uppercase">Contact us</h2>
+							<ul class="footer-block-contant">
+								<li><img src="images/cont-1.png" alt="img"><span>28 Green Tower, Street Name <br>New York
+										City, USA</span></li>
+								<li><img src="images/cont-2.png" alt="img"><a href="tel:+911234567890">+ 91 123 456 789
+										0</a></li>
+								<li><img src="images/cont-3.png" alt="img"><a
+										href="/cdn-cgi/l/email-protection#234a4d454c63465b424e534f460d404c4e"><span
+											class="__cf_email__"
+											data-cfemail="a7cec9c1c8e7c2dfc6cad7cbc289c4c8ca">[email&#160;protected]</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>-->
+					<div class="copy-right mt-100 text-center">
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-12">
+								<p class="copyright-text">&#169;2022. Maax all Rights Reserved. Theme Hand-crafted by <a
+										href="https://www.cadra.in/">CADRA</a>
+								</p>
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-12">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+	
+		</div>
+	
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/animation.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script>
+			/* ------------ Newslater-popup JS Start
+				$(window).on('load', function(){
+					setTimeout(function(){
+						mfp = $.magnificPopup.instance; 
+						if(!mfp.isOpen) {
+							jQuery.magnificPopup.open({
+								items: {src: '#newslater-popup'},type: 'inline'
+							}, 0);
+						}
+					},10000)
+				}); ------------- */
+			/* ------------ Newslater-popup JS End ------------- */
+		</script>
+	</body>
+	
+	</html>
