@@ -90,7 +90,7 @@
 
 	.header {padding: 8px 0px;}
 	.header.sticky{padding: 8px 0px;}
-	.main-menu {position: fixed; top: 50px; left: 0; background: #f5900d; z-index: 9; overflow: auto; height: calc(100vh - 50px); display: none;}
+	.main-menu {position: fixed; top: 50px; left: 0; background: #ff0000; z-index: 9; overflow: auto; height: calc(100vh - 50px); display: none;}
 	.brand-logo {max-width: 150px;}
 	.icon-menu > ul > li{padding: 5px 0px;}
 	.icon-menu > ul > li:before {top: 10px;}
@@ -185,7 +185,7 @@
 	.main-menu > ul > li.dropdown:hover > a:before{opacity: 1;}
 	.main-menu ul ul li a:hover {left: 10px;}
 	.sticky .main-menu > ul > li > a {color: #1a1a1a;}
-	.sticky .main-menu > ul > li:hover > a{color: #f5900d;}
+	.sticky .main-menu > ul > li:hover > a{color: #ff0000;}
 	.cart:hover .header-link-dropdown {display: block;}
 	.cart:hover .cart-dropdown:before{opacity: 1;}
 }
